@@ -1,0 +1,70 @@
+* {
+    font-family: "Comic Sans", sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #0077ff;
+    padding: 20px;
+    color: white;
+}
+
+
+.img {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width: 900px;
+        margin: auto;
+    }
+
+    .profile {
+        margin: 0px 50px 50px 0px;
+        width: 250px;
+        height: auto;  
+    }
+
+    .main {
+        margin-top: 50px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .profile {
+        margin: 50px auto 20px;
+        width: 250px;
+        height: auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
